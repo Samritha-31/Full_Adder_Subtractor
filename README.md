@@ -85,9 +85,9 @@ module full_adder (
 
 endmodule
 ~~~
-~~~
-## Full Subtractor
 
+## Full Subtractor
+~~~
 module full_subtractor (
     input  wire a, b, bin,       // Inputs
     output wire diff, borrow     // Outputs
