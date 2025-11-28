@@ -1,4 +1,4 @@
-# Full_Adder_Subtractor
+
 
 # FULL_ADDER_SUBTRACTOR
 
@@ -64,16 +64,16 @@ Create nodes for inputs and outputs to generate the timing diagram.
 
 For different input combinations generate the timing diagram.
 
-
+~~~
 ## Program:
 
 Program to design a full adder and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
 Developed by: SAMRITHA.G
 RegisterNumber: 25011974
-
+~~~
 ## Full Adder
 
-
+~~~
 module full_adder (
     input  wire a, b, cin,   // Inputs
     output wire sum, carry   // Outputs
@@ -84,8 +84,8 @@ module full_adder (
     assign carry = (a & b) | (b & cin) | (a & cin); // Majority function for carry
 
 endmodule
-
-
+~~~
+~~~
 ## Full Subtractor
 
 module full_subtractor (
@@ -98,7 +98,7 @@ module full_subtractor (
     assign borrow = (~a & b) | (~(a ^ b) & bin);  // Borrow logic
 
 endmodule
-
+~~~
 
 
 ## RTL Schematic
